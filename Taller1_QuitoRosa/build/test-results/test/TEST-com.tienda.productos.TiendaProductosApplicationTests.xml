@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tienda.productos.TiendaProductosApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-08T04:19:25.895Z" hostname="DESKTOP-8ULVTK2" time="4.439">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.tienda.productos.TiendaProductosApplicationTests" time="1.078"/>
+  <system-out><![CDATA[23:19:26.231 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.tienda.productos.TiendaProductosApplicationTests]: TiendaProductosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:19:26.395 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.tienda.productos.TiendaProductosApplication for test class com.tienda.productos.TiendaProductosApplicationTests
+23:19:26.543 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.tienda.productos.TiendaProductosApplicationTests]: TiendaProductosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:19:26.546 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.tienda.productos.TiendaProductosApplication for test class com.tienda.productos.TiendaProductosApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-11-07T23:19:27.082-05:00  INFO 6164 --- [tienda-productos] [    Test worker] c.t.p.TiendaProductosApplicationTests    : Starting TiendaProductosApplicationTests using Java 21.0.11 with PID 6164 (started by WinterOS in C:\Users\WinterOS\Documents\demo\demoRosaQuito)
+2026-11-07T23:19:27.085-05:00  INFO 6164 --- [tienda-productos] [    Test worker] c.t.p.TiendaProductosApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-11-07T23:19:29.228-05:00  INFO 6164 --- [tienda-productos] [    Test worker] c.t.p.TiendaProductosApplicationTests    : Started TiendaProductosApplicationTests in 2.578 seconds (process running for 4.766)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\WinterOS\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.18.15\de6980bb799c25bb1fe9e6c434201299cb5e694e\byte-buddy-agent-1.18.15.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
